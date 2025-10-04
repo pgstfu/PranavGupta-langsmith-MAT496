@@ -51,3 +51,11 @@ This lesson explores different ways to trace LLM applications beyond LangChain�
 3. **RunTree API** → full manual control for building custom frameworks  
 
 I modified the notebook/code to replace OpenAI with **Anthropic (Claude)** for compatibility.  
+
+## Lesson 4: Conversational Threads  
+
+This lesson demonstrates how to use tracing for **multi-turn conversational applications**, where maintaining context across messages is essential.  
+
+- **Threads** → group runs by conversation to track context flow  
+- **Debugging** → identify issues that only appear in multi-turn dialogues  
+- **Tracing** → capture the full conversation experience, not just single messages  
