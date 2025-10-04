@@ -59,3 +59,16 @@ This lesson demonstrates how to use tracing for **multi-turn conversational appl
 - **Threads** → group runs by conversation to track context flow  
 - **Debugging** → identify issues that only appear in multi-turn dialogues  
 - **Tracing** → capture the full conversation experience, not just single messages  
+
+
+
+# Module 2
+
+
+## Lesson 1: Datasets  
+
+This lesson introduces **datasets** for evaluating LLM applications, focusing on creation, management, and usage for systematic testing.  
+
+- **Purpose** → organize input-output pairs to benchmark LLM performance  
+- **Import** → from CSV files or create programmatically  
+- **Custom Examples** → manually create or generate (requires API key) 
