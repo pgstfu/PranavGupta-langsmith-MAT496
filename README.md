@@ -72,3 +72,14 @@ This lesson introduces **datasets** for evaluating LLM applications, focusing on
 - **Purpose** → organize input-output pairs to benchmark LLM performance  
 - **Import** → from CSV files or create programmatically  
 - **Custom Examples** → manually create or generate (requires API key) 
+
+## Lesson 2: Evaluators  
+
+This lesson covers **evaluators**, which automatically assess the quality of LLM outputs.  
+
+- **Types** → exact match, semantic similarity, custom evaluators  
+- **Automation** → check correctness or usefulness of outputs without manual review  
+- **Custom Evaluators** → create your own for specific requirements  
+- **Combination** → use multiple evaluators for a comprehensive view of model performance  
+
+
