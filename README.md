@@ -36,3 +36,18 @@ This lesson explains the different **types of runs** in an LLM application and h
 - Helps distinguish workflow steps for **debugging** and **optimization**  
 - Run hierarchy pinpoints **errors or bottlenecks**  
 - Traces can be **filtered by run type** for focused inspection  
+
+## Lesson 3: Alternative Tracing methods
+
+This lesson explores different ways to trace LLM applications beyond LangChain’s built-in tools.  
+
+- **LangChain Built-in Tracing** → simple and integrated  
+- **OpenTelemetry** → open-source, framework-agnostic  
+- **Phoenix** → visual interface for exploring traces and complex chains  
+
+### Key Approaches  
+1. **Context Manager (`with trace()`)** → custom control over inputs/outputs  
+2. **Wrapper (`wrap_anthropic`)** → automatic tracing by wrapping the client (modified from `wrap_openai`)  
+3. **RunTree API** → full manual control for building custom frameworks  
+
+I modified the notebook/code to replace OpenAI with **Anthropic (Claude)** for compatibility.  
