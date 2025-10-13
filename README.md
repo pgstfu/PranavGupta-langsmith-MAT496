@@ -137,3 +137,4 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 - The whole point was to show how easy it is to make your prompts flexible and reusable. You can plug in different values, see how the model responds, and basically experiment with different versions of a prompt all in one place. It makes prompt testing a lot faster and more organized.
 - Then toward the end, they showed how you can actually connect this with RAG (Retrieval-Augmented Generation) — basically, using your own data or knowledge base along with the prompt. So instead of just relying on the model’s general knowledge, you can make it respond based on real, updated information you feed it.
 ![Alt text](image2.png)
+![Alt text](image3.png)
