@@ -142,10 +142,10 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 ## Lesson 3: Prompt Engineering Lifecycle
 - In the video, they showed how Prompt Hub works like a toolbox full of ready-made prompts that you can pick, tweak, and test directly in Playground. This makes experimenting with different prompts much faster than starting from scratch. They demonstrated it using a technical questions dataset with RAG (Retrieval-Augmented Generation), so the AI can pull accurate, relevant information instead of guessing.
 - They also explained Traceable, which shows exactly which parts of the prompt and dataset the AI used, and RunTree, which visualizes the AI’s reasoning step by step. Overall, it’s a way to design, test, and refine prompts efficiently while keeping everything transparent and traceable.
-!(image4.png)
-!(image5.png)
-!(image6.png)
-!(image7.png)
+![Alt text](image4.png)
+![Alt text](image5.png)
+![Alt text](image6.png)
+![Alt text](image7.png)
 
 ## Lesson 4: Prompt canvas
 - LangSmith’s Prompt Canvas, which is like a digital workshop where you can build and fine-tune prompts visually. In the example, they set up a chatbot to speak like a pirate, and the canvas let them break the prompt into sections and adjust each part. By experimenting with different instructions and tweaks, they could guide the AI to respond exactly the way they wanted.
@@ -153,5 +153,5 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 - Prompt canvas empowers users in their prompt engineering lifecycle.
 - We can use LLMs to help us write better prompts according to our specific requirements!
 - We can use custom quick actions for standardization and collaboration across our organization
-!(image8.png)
-!(image9.png)
+![Alt text](image8.png)
+![Alt text](image9.png)
