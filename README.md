@@ -146,3 +146,12 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 !(image5.png)
 !(image6.png)
 !(image7.png)
+
+## Lesson 4: Prompt canvas
+- LangSmith’s Prompt Canvas, which is like a digital workshop where you can build and fine-tune prompts visually. In the example, they set up a chatbot to speak like a pirate, and the canvas let them break the prompt into sections and adjust each part. By experimenting with different instructions and tweaks, they could guide the AI to respond exactly the way they wanted.
+- The key takeaway was that Prompt Canvas makes it easy to test, refine, and iterate on prompts in a very hands-on way, instead of just guessing and hoping for the right output.
+- Prompt canvas empowers users in their prompt engineering lifecycle.
+- We can use LLMs to help us write better prompts according to our specific requirements!
+- We can use custom quick actions for standardization and collaboration across our organization
+!(image8.png)
+!(image9.png)
