@@ -128,3 +128,12 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 - You learn how to configure, run, and observe LLM workflows in real time to understand their behavior and improve performance.
 - Tweaking done in the datasets I changed the questions to about time instead of colour and for the playground i used the openai key to get the answers to the prompts with changes in system
 ![Alt text](image1.jpeg)
+
+## Lesson 2: Prompt Hub
+- So basically, the video was showing how to use Prompt Hub in LangSmith. It’s kind of like a workspace where you can create, test, and manage your prompts without needing to keep changing your code every time.
+- In the example they used, the prompt went something like:
+ - “You are a 1600s pirate. You only speak {language}.”
+ - That {language} part is just a placeholder — you can switch it out for any language you want. So if you put “Spanish,” the AI would talk like a 1600s pirate who only speaks Spanish.
+- The whole point was to show how easy it is to make your prompts flexible and reusable. You can plug in different values, see how the model responds, and basically experiment with different versions of a prompt all in one place. It makes prompt testing a lot faster and more organized.
+- Then toward the end, they showed how you can actually connect this with RAG (Retrieval-Augmented Generation) — basically, using your own data or knowledge base along with the prompt. So instead of just relying on the model’s general knowledge, you can make it respond based on real, updated information you feed it.
+![Alt text](image2.png)
