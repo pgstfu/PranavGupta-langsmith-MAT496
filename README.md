@@ -138,3 +138,11 @@ def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
 - Then toward the end, they showed how you can actually connect this with RAG (Retrieval-Augmented Generation) — basically, using your own data or knowledge base along with the prompt. So instead of just relying on the model’s general knowledge, you can make it respond based on real, updated information you feed it.
 ![Alt text](image2.png)
 ![Alt text](image3.png)
+
+## Lesson 3: Prompt Engineering Lifecycle
+- In the video, they showed how Prompt Hub works like a toolbox full of ready-made prompts that you can pick, tweak, and test directly in Playground. This makes experimenting with different prompts much faster than starting from scratch. They demonstrated it using a technical questions dataset with RAG (Retrieval-Augmented Generation), so the AI can pull accurate, relevant information instead of guessing.
+- They also explained Traceable, which shows exactly which parts of the prompt and dataset the AI used, and RunTree, which visualizes the AI’s reasoning step by step. Overall, it’s a way to design, test, and refine prompts efficiently while keeping everything transparent and traceable.
+!(image4.png)
+!(image5.png)
+!(image6.png)
+!(image7.png)
