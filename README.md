@@ -119,7 +119,7 @@ This section demonstrates how to **run, evaluate, and optimize a RAG application
 def is_concise_enough(reference_outputs: dict, outputs: dict) -> dict:
     score = len(outputs["output"]) < 1.5 * len(reference_outputs["output"])
     return {"key": "is_concise", "score": int(score)}
-
+```
 
 
 # Module 3
